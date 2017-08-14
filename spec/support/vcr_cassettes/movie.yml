@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/movie/254320?api_key=bcd158ce3aca8369ca10bc884546da6e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After
+      Cache-Control:
+      - public, max-age=28800
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 14 Aug 2017 11:54:49 GMT
+      Etag:
+      - '"e635cd3037a0f188c325ea43ddce2448"'
+      Server:
+      - openresty
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '27462'
+      X-Memc-Expires:
+      - '1338'
+      X-Memc-Key:
+      - 4c89783739b74db2b2796ab88948bd79
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1502711699'
+      Content-Length:
+      - '2015'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvOVhFZ0dEZk1xZ3RD
+        bnMxTTBPSEhRUm1jdnF1LmpwZyIsImJlbG9uZ3NfdG9fY29sbGVjdGlvbiI6
+        bnVsbCwiYnVkZ2V0Ijo0MDAwMDAwLCJnZW5yZXMiOlt7ImlkIjo1MywibmFt
+        ZSI6IlRocmlsbGVyIn0seyJpZCI6MzUsIm5hbWUiOiJDb21lZHkifSx7Imlk
+        IjoxOCwibmFtZSI6IkRyYW1hIn0seyJpZCI6MTA3NDksIm5hbWUiOiJSb21h
+        bmNlIn0seyJpZCI6ODc4LCJuYW1lIjoiU2NpZW5jZSBGaWN0aW9uIn1dLCJo
+        b21lcGFnZSI6Imh0dHA6Ly90aWNrZXRzLnBpY3R1cmVob3VzZWVudGVydGFp
+        bm1lbnQuY28udWsvZ2IvdGhlLWxvYnN0ZXIvIiwiaWQiOjI1NDMyMCwiaW1k
+        Yl9pZCI6InR0MzQ2NDkwMiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJv
+        cmlnaW5hbF90aXRsZSI6IlRoZSBMb2JzdGVyIiwib3ZlcnZpZXciOiJJbiBh
+        IGR5c3RvcGlhbiBuZWFyIGZ1dHVyZSwgc2luZ2xlIHBlb3BsZSwgYWNjb3Jk
+        aW5nIHRvIHRoZSBsYXdzIG9mIFRoZSBDaXR5LCBhcmUgdGFrZW4gdG8gVGhl
+        IEhvdGVsLCB3aGVyZSB0aGV5IGFyZSBvYmxpZ2VkIHRvIGZpbmQgYSByb21h
+        bnRpYyBwYXJ0bmVyIGluIGZvcnR5LWZpdmUgZGF5cyBvciBhcmUgdHJhbnNm
+        b3JtZWQgaW50byBiZWFzdHMgYW5kIHNlbnQgb2ZmIGludG8gVGhlIFdvb2Rz
+        LiIsInBvcHVsYXJpdHkiOjIuMDI3MDE2LCJwb3N0ZXJfcGF0aCI6Ii95UjYw
+        RXFNR1M5aEhxOUk1UGtxMmhHOTg0VFAuanBnIiwicHJvZHVjdGlvbl9jb21w
+        YW5pZXMiOlt7Im5hbWUiOiJIYXV0IGV0IENvdXJ0IiwiaWQiOjcyNn0seyJu
+        YW1lIjoiRXVyaW1hZ2VzIiwiaWQiOjg1MH0seyJuYW1lIjoiTGVtbWluZyBG
+        aWxtIiwiaWQiOjIzNDV9LHsibmFtZSI6IkVsZW1lbnQgUGljdHVyZXMiLCJp
+        ZCI6MzM1M30seyJuYW1lIjoiTmVkZXJsYW5kcyBGb25kcyB2b29yIGRlIEZp
+        bG0iLCJpZCI6NDUwOH0seyJuYW1lIjoiQ2FuYWwrIiwiaWQiOjUzNTh9LHsi
+        bmFtZSI6IkdyZWVrIEZpbG0gQ2VudGVyIiwiaWQiOjcyNTR9LHsibmFtZSI6
+        IkZpbG00IiwiaWQiOjkzNDl9LHsibmFtZSI6IkNpbsOpKyIsImlkIjoxMDYx
+        MX0seyJuYW1lIjoiQ2VudHJlIE5hdGlvbmFsIGR1IENpbsOpbWEgZXQgZGUg
+        TCdpbWFnZSBBbmltw6llIChDTkMpIiwiaWQiOjE3Mjk4fSx7Im5hbWUiOiJG
+        YWxpcm8gSG91c2UgUHJvZHVjdGlvbnMiLCJpZCI6MTkyNDZ9LHsibmFtZSI6
+        IlNjYXJsZXQgRmlsbXMiLCJpZCI6NzEyNjV9LHsibmFtZSI6Ikluc3RpdHV0
+        IEZyYW7Dp2FpcyIsImlkIjo3MjU5NX0seyJuYW1lIjoiTCdBaWRlIGF1eCBD
+        aW7DqW1hcyBkdSBNb25kZSIsImlkIjo3MjU5Nn0seyJuYW1lIjoiTGltcCBG
+        aWxtcyIsImlkIjo3MjU5N30seyJuYW1lIjoiTWluaXN0w6hyZSBkZXMgQWZm
+        YWlyZXMgw6l0cmFuZ8OocmVzIGV0IGR1IETDqXZlbG9wcGVtZW50IEludGVy
+        bmF0aW9uYWwiLCJpZCI6NzI1OTh9LHsibmFtZSI6IlByb3RhZ29uaXN0IEZp
+        bG1zIiwiaWQiOjcyNTk5fV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJp
+        c29fMzE2Nl8xIjoiRlIiLCJuYW1lIjoiRnJhbmNlIn0seyJpc29fMzE2Nl8x
+        IjoiR1IiLCJuYW1lIjoiR3JlZWNlIn0seyJpc29fMzE2Nl8xIjoiSUUiLCJu
+        YW1lIjoiSXJlbGFuZCJ9LHsiaXNvXzMxNjZfMSI6Ik5MIiwibmFtZSI6Ik5l
+        dGhlcmxhbmRzIn0seyJpc29fMzE2Nl8xIjoiR0IiLCJuYW1lIjoiVW5pdGVk
+        IEtpbmdkb20ifV0sInJlbGVhc2VfZGF0ZSI6IjIwMTUtMTAtMDgiLCJyZXZl
+        bnVlIjoxNTY1NjE5MywicnVudGltZSI6MTE4LCJzcG9rZW5fbGFuZ3VhZ2Vz
+        IjpbeyJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJpc29f
+        NjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJl
+        bGVhc2VkIiwidGFnbGluZSI6IkFuIHVuY29udmVudGlvbmFsIGxvdmUgc3Rv
+        cnkuLi4iLCJ0aXRsZSI6IlRoZSBMb2JzdGVyIiwidmlkZW8iOmZhbHNlLCJ2
+        b3RlX2F2ZXJhZ2UiOjYuNywidm90ZV9jb3VudCI6MTE5M30=
+    http_version: 
+  recorded_at: Mon, 14 Aug 2017 11:54:49 GMT
+recorded_with: VCR 3.0.3

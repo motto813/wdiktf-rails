@@ -38,9 +38,16 @@ gem 'jbuilder', '~> 2.5'
 # TheMovieDB wrapper
 gem 'themoviedb'
 
+# Webmock for HTTP requests
+gem 'webmock'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails'
+  gem 'rails-controller-testing'
+  gem 'capybara'
+  gem 'vcr'
 end
 
 group :development do
