@@ -1,0 +1,5 @@
+<%= form_tag '/shows/search', method: 'get' %>
+  <h3>Find that actor!</h3>
+
+<%= search_field_tag 'show_name', 'What are you watching?' %>
+<%= submit_tag 'Search' %>

@@ -1,0 +1,9 @@
+<div id="cast-info">
+  <h3>Results</h3>
+
+  <% @cast.each do |cast| %>
+    <div class="actor-profile">
+      <p><%= cast["name"] %></p>
+    </div>
+  <% end %>
+</div>
